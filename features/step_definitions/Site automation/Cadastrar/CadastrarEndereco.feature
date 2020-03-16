@@ -7,7 +7,6 @@ Esquema do Cenario: adicionar um endereco
     E clicar em Add New adresse 
     E preencher campos obrigatorios "<address>" "<city>" "<state>" "<zip_postel>" "<home_phone>" "<mobile_phone>" "<please_assing>"
     E clicar em Save 
-    E clicar em Back addresses
   Entao sera adicionado um novo endereço
 Exemplos:
     |address1                     | city    | state   | zip_postel | home_phone       | mobile_phone    | please_assing |

@@ -5,10 +5,10 @@ Esquema do Cenario: Acessar My Account,Sub categoria my orders e fazer login
     Dado Eu que esteja na home
     Quando eu clicar em My orders
         E clicar em sign in
-        E prencher os campos "<email>" e "<password>" clicar em sign
+        E prencher os campo "<email>" e "<password>" clicar em sign
     Entao Estarei logado
-Exemplos:
-|   email         |password|
+Exemplos: 
+|    email               |password|
 |teste@inmetricsgmail.com|abc@2020|
 
 @ct04

@@ -10,7 +10,7 @@ end
 
 Quando("clicar em my Addresses") do
   page.execute_script 'window.scrollBy(0,10000)' 
-  find(:xpath, '//*[@id="footer"]/div/section[5]/div/ul/li[3]/a').click
+  find(:xpath,'//*[@id="footer"]/div/section[5]/div/ul/li[3]/a').click
 end
 
 Quando("clicar em Add New adresse") do
@@ -30,10 +30,6 @@ end
   
 Quando("clicar em Save") do
   find(:xpath,'//*[@id="add_address"]/p[2]').click
-end
-
-Quando("clicar em Back addresses") do
-  
 end
 
 Entao("sera adicionado um novo endereço") do 
