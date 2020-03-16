@@ -9,5 +9,5 @@ Esquema do Cenario: adicionar um endereco
     E clicar em Save 
   Entao sera adicionado um novo endereço
 Exemplos:
-    |address1                     | city    | state   | zip_postel | home_phone       | mobile_phone    | please_assing |
+    |address1                    | city    | state   | zip_postel | home_phone       | mobile_phone    | please_assing |
     | Orlando, FL, Estados Unidos| Orlando | Florida |    32819   | +1 407-363-80000 | +1(407) 224-4233| 39401         |
