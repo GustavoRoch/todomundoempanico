@@ -9,4 +9,4 @@ gem 'rest-client'
 gem 'json'
 gem 'httparty'
 # gem 'page-object', '~> 2.0'
-# gem 'data_magic'
+# gem 'data_magic'git

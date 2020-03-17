@@ -6,18 +6,18 @@ end
                                                                                                  
 Quando("eu clicar em My orders") do                                                              
   page.execute_script'window.scrollBy(0,10000)' 
-  find(:xpath,'//*[@id="footer"]/div/section[5]/div/ul/li[1]').click                    
-end                                                                                              
+  find(:xpath,'//*[@id="footer"]/div/section[5]/div/ul/li[1]').click                  
+end                                                                                             
                                                                                                  
 Quando("clicar em sign in") do                                                                   
   find(:xpath,'//*[@id="header"]/div[2]/div/div/nav/div[1]/a').click                   
 end                                                                                              
-                                                                                                 
-Quando("prencher os campo {string} e {string} clicar em sign") do |email,password| 
-  @Login_teste.emailaddress. email    
-  @Login_teste.password. password  
-  find(xpath,'//*[@id="SubmitLogin"]').click            
-end                                                                                              
+                                                                                                   
+Quando("prencher os campos {string} e {string} clicar em sign") do |email,Password|
+  @Login_teste.emailAddress. email   
+  @Login_teste.Password. password  
+  find(xpath,'//*[@id="SubmitLogin"]').click 
+end                                                                                         
                                                                                                  
 Entao("Estarei logado") do                                                                                 
 end                                                                                                                                                                                

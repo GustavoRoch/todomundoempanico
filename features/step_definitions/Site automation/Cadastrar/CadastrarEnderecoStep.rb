@@ -17,7 +17,7 @@ Quando("clicar em Add New adresse") do
   find(:xpath,'//*[@id="center_column"]/div[2]/a').click
 end
 
-Quando("preencher campos obrigatorios {string} {string} {string} {string} {string} {string} {string}") do |address1,address_line2,city,search_field,zip_postal_cod,home_phone,mobile_phone|
+Quando("preencher campos obrigatorio {string} {string} {string} {string} {string} {string} {string}") do |address1,address_line2,city,search_field,zip_postal_cod,home_phone,mobile_phone|
   @cadastrar_page.address. address
   @cadastrar_page.address_line2. address_line2
   @cadastrar_page.city. city 
