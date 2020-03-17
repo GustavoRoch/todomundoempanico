@@ -1,11 +1,13 @@
                                                                              
 Dado("Que eu esteja na home") do  
-  @loadPage.new                      
+  SigneSignOuT = SigneSignOuT.new          
   @login.load                     
 end                                                                          
                                                                              
 Quando("eu clicar Sign") do                                                  
+  @SigneSignOuT.sign. 
   find(:xpath, '//*[@id="header"]/div[2]/div/div/nav/div[1]/a').click
+
 end                                                                          
                                                                              
 Quando("Preencher Email address e Password") do                              
