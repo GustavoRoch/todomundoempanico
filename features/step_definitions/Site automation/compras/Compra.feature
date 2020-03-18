@@ -18,6 +18,7 @@ Cenario: Simular uma compra com usuario existente
     E Clicar em Pay by check order processing wil be longer
     E clicar em I confirm my order
   Entao a compra sera realizada com sucesso
+
 @ctDois
 Cenario: my Account e a sub categoria my credit slips,voltar a Back to your account
   Dado que eu esteja na home

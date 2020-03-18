@@ -1,23 +1,21 @@
-Dado("Eu que esteja na home") do  
-  @Login_teste = LoginPage.new
-  @Login_teste.load
-  find(:xpath,'//*[@id="search_query_top"]').click                    
+Dado("Eu que esteja na home") do 
+  @login.login004Page.def new
+  @login.load                   
 end                                                                                              
                                                                                                  
 Quando("eu clicar em My orders") do                                                              
-  page.execute_script'window.scrollBy(0,10000)' 
-  find(:xpath,'//*[@id="footer"]/div/section[5]/div/ul/li[1]').click                  
+  @login.myordens_button. myordens_button                  
 end                                                                                             
                                                                                                  
 Quando("clicar em sign in") do                                                                   
-  find(:xpath,'//*[@id="header"]/div[2]/div/div/nav/div[1]/a').click                   
+  @login.sign_in_button. sign_in_button               
 end                                                                                              
-                                                                                                   
-Quando("prencher os campos {string} e {string} clicar em sign") do |email,Password|
-  @Login_teste.emailAddress. email   
-  @Login_teste.Password. password  
-  find(xpath,'//*[@id="SubmitLogin"]').click 
-end                                                                                         
-                                                                                                 
+                                                                                                                                                                                     
+Quando("prencher os campos email e senha clicar em sign") do
+  @login.email_field. email_field
+  @login.password-field. password_field
+  @login.sign_button. sign_button
+end
+
 Entao("Estarei logado") do                                                                                 
 end                                                                                                                                                                                
