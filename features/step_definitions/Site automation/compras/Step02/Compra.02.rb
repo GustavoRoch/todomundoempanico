@@ -1,4 +1,4 @@
-Dado("que eu esteja na home") do
+Dado("que eu estou na home") do
   @comprasPage = ComprasPage.new 
   @comprasPage.load
 end
@@ -19,19 +19,7 @@ Quando("eu clicar em T-shirts") do
 end
 
 Quando("clique em Fedad short Sleeve T- shirts") do
-  @comprasPage.faded.click
-end
-
-Quando("Clicar em Quantitye e altere a {string}") do |quantity|
-  @comprasPage.quantity.set quantity
-end
-
-Quando("clicar em Size e selecionar tamanho") do
-  @comprasPage.size.click
-end
-
-Quando("clicar em  Cor") do
-  @comprasPage.blue.click
+  @comprasPage.fedad.click
 end
 
 Quando("Clicar em Add to cart") do

@@ -1,5 +1,5 @@
 #language:pt
-@ct41
+@ct04
 Funcionalidade: Fazer login e sign out
 
     Contexto: Esta na pagina home 
